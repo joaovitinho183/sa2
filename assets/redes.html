@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="shortcut icon" href="/img/vqLOGOsemfundo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/redes.css">
+    <script src="/scripts/redes.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VisualQuart</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="logo">
+            <img src="/img/vqLOGO.png" alt="" width="180px">
+        </div>
+        <nav>
+            <a href="/assets/index.html">Home</a>
+            <a href="/assets/eletroeletronica.html">Eletroeletrônica</a>
+            <a href="/assets/redes.html">Redes</a>
+            <a href="/assets/bancodaos.html">BancoDados</a>
+            <a href="/assets/algoritmos.html">Algoritmos</a>
+            <a href="/assets/programacao.html">Programação</a>
+        </nav>
+    </header>
+
+    <main class="principal">
+        <div class="container">
+            <h1>Servidor Web (cisco packet tracer)</h1>
+            <br><br>
+            <div class="conteudo">
+                <div class="piece">
+                    <h2>Elementos e Componentes:</h2>
+                    <br>
+                    <li>
+                        <b>Servidor Web:</b> É o dispositivo que hospeda e disponibiliza páginas web (como HTML, CSS)
+                        através do protocolo HTTP. No Cisco Packet Tracer, você pode adicionar um PC configurado como
+                        servidor para simular um servidor web.
+                    </li>
+                    <li>
+                        <b>Switch:</b> Conecta vários dispositivos dentro de uma rede local (LAN), permitindo
+                        comunicação entre os dispositivos da rede interna.
+                    </li>
+                    <li>
+                        <b>Roteador:</b> Conecta a rede interna à rede externa (como a Internet), permitindo comunicação
+                        entre diferentes sub-redes.
+                    </li>
+                    <li>
+                        <b>PCs/Dispositivos de Cliente:</b> Dispositivos que acessam o servidor web via navegador,
+                        solicitando páginas e serviços fornecidos pelo servidor.
+                    </li>
+                    <li>
+                        <b>Cabos de Rede:</b> Conectam todos os dispositivos na rede (usualmente cabos Ethernet ou
+                        cabeamento direto).
+                    </li>
+                </div>
+                <div class="piece-next">
+                    <div class="carousel">
+                        <input type="radio" name="radio-btn1" id="img1-1" checked>
+                        <input type="radio" name="radio-btn1" id="img1-2">
+                        <input type="radio" name="radio-btn1" id="img1-3">
+                        <input type="radio" name="radio-btn1" id="img1-4">
+
+                        <div class="slides">
+                            <div class="slide">
+                                <img src="/img/server.png" alt="Imagem 1">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/switch.png" alt="Imagem 2">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/pc.png" alt="Imagem 3">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/cabo.png" alt="Imagem 4">
+                            </div>
+                        </div>
+
+                        <div class="navigation-manual">
+                            <label for="img1-1" class="manual-btn"></label>
+                            <label for="img1-2" class="manual-btn"></label>
+                            <label for="img1-3" class="manual-btn"></label>
+                            <label for="img1-4" class="manual-btn"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="conteudo">
+                <div class="piece">
+                    <h2>Configuração de Rede:</h2>
+                    <br>
+                    <h3>Conectar Dispositivos:</h3><br>
+                    <li>
+                        <b>1)</b> Coloque um servidor web (PC) e configure seu endereço IP.
+                    </li>
+                    <li>
+                        <b>2)</b> Conecte o servidor a um switch usando um cabo de rede.
+                    </li>
+                    <li>
+                        <b>3)</b> Conecte outros PCs clientes ao switch.
+                    </li>
+                    <li>
+                        <b>4)</b> Adicione um roteador para permitir o acesso à Internet, se necessário.
+                    </li>
+                    <br>
+                    <h3>Configuração de IP:</h3><br>
+                    <li>
+                        <b>1)</b> Atribua endereços IP estáticos aos dispositivos na rede interna (como os PCs e o
+                        servidor web).
+                    </li>
+                    <li>
+                        <b>2)</b> Configure a máscara de sub-rede e o gateway (geralmente o roteador) para permitir
+                        comunicação entre as máquinas da rede.
+                    </li><br>
+                    <h3>Configuração do Servidor Web:</h3><br>
+                    <li>
+                        <b>1)</b> No servidor, ative o serviço HTTP (normalmente na aba de configuração de "Serviços" do
+                        servidor) para permitir que ele envie e receba requisições HTTP.
+                    </li>
+                    <li>
+                        <b>2)</b> Coloque um arquivo HTML simples no servidor para ser acessado pelos clientes.
+                    </li>
+                    <br>
+                    <h3>Testar a Conexão:</h3>
+                    <li>
+                        <b>1)</b> Nos PCs clientes, abra um navegador e insira o endereço IP do servidor web para
+                        verificar se a página é carregada corretamente.
+                    </li><br>
+                    <p>Essa configuração permite simular uma rede interna simples onde um servidor web oferece serviços
+                        para PCs dentro de uma mesma rede local, podendo incluir acesso à Internet dependendo da
+                        configuração do roteador.</p>
+                </div>
+                <div class="piece-next">
+                    <div class="carousel">
+                        <input type="radio" name="radio-btn2" id="img2-1" checked>
+                        <input type="radio" name="radio-btn2" id="img2-2">
+                        <input type="radio" name="radio-btn2" id="img2-3">
+                        <input type="radio" name="radio-btn2" id="img2-4">
+
+                        <div class="slides2">
+                            <div class="slide">
+                                <img src="/img/endereco_servidordhsp_ipfixo.png" alt="Imagem 1">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/redelocal02.png" alt="Imagem 2">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/server-pagina.png" alt="Imagem 3">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/pagina.png" alt="Imagem 4">
+                            </div>
+                        </div>
+
+                        <div class="navigation-manual">
+                            <label for="img2-1" class="manual-btn"></label>
+                            <label for="img2-2" class="manual-btn"></label>
+                            <label for="img2-3" class="manual-btn"></label>
+                            <label for="img2-4" class="manual-btn"></label>
+                        </div>
+                    </div>
+                </div>
+            </div><br>
+            <h1>Servidores: DNS, HTTP e DHCP</h1><br><br>
+            <div class="conteudo">
+                <div class="piece">
+                    <h2>Servidor DNS(Domain Name System):</h2><br>
+                    <li>
+                        <b>Função:</b> Sistema que traduz nomes de domínio (ex: www.exemplo.com) em endereços IP (ex:
+                        192.168.1.1). O DNS permite que usuários acessem sites pela URL, sem precisar lembrar dos
+                        endereços IP.
+                    </li>
+                    <li>
+                        <b>Configuração:</b> Atribui um nome de domínio a um IP no servidor, permitindo que clientes
+                        acessem sites por nome.
+                    </li><br>
+                    <h2>Servidor HTTP (Hypertext Transfer Protocol):</h2><br>
+                    <li>
+                        <b>Função:</b> Protocolo de comunicação utilizado para transferir páginas web pela internet. Ele
+                        define como as mensagens são formatadas e transmitidas entre servidores e navegadores.
+                    </li>
+                    <li>
+                        <b>Configuração:</b> Ativa o serviço HTTP no servidor, armazena arquivos e responde às
+                        requisições dos clientes.
+                    </li><br>
+                    <h2>Servidor DHCP (Dynamic Host Configuration Protocol):</h2><br>
+                    <li>
+                        <b>Função:</b> Protocolo responsável por atribuir endereços IP automaticamente a dispositivos em
+                        uma rede. Ele simplifica a configuração de rede, evitando a necessidade de configurar
+                        manualmente cada dispositivo.
+                    </li>
+                    <li>
+                        <b>Configuração:</b> Define um intervalo de IPs, máscara de sub-rede e gateway para distribuição
+                        automática de endereços.
+                    </li><br>
+                    <p>Esses servidores são fundamentais para o funcionamento eficiente de redes, permitindo navegação
+                        web, resolução de nomes e configuração automática de IPs.
+                    </p>
+                </div>
+                <div class="piece-next">
+                    <div class="carousel">
+                        <input type="radio" name="radio-btn3" id="img3-1" checked>
+                        <input type="radio" name="radio-btn3" id="img3-2">
+                        <input type="radio" name="radio-btn3" id="img3-3">
+                        <div class="slides3">
+                            <div class="slide">
+                                <img src="/img/pagina.png" alt="Imagem 1">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/config.http.png" alt="Imagem 2">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/configuracao_serviceDHCP_40machines.png" alt="Imagem 3">
+                            </div>
+                        </div>
+
+                        <div class="navigation-manual">
+                            <label for="img3-1" class="manual-btn"></label>
+                            <label for="img3-2" class="manual-btn"></label>
+                            <label for="img3-3" class="manual-btn"></label>
+                        </div>
+                    </div>
+                </div>
+            </div><br>
+            <h1>Equipamentos aplicados em redes e sua função:</h1><br><br>
+            <div class="conteudo">
+                <div class="piece">
+                    <li>
+                        <b>Roteador:</b> Conecta redes diferentes e encaminha pacotes entre elas, configurando NAT e
+                        roteamento.
+                    </li>
+                    <li>
+                        <b>Switch:</b> Conecta dispositivos dentro da mesma rede local (LAN), filtrando dados com base
+                        no endereço MAC.
+                    </li>
+                    <li>
+                        <b>Access Point:</b> Conecta dispositivos sem fio (Wi-Fi) à rede com fio, estendendo a cobertura
+                        da rede.
+                    </li>
+                    <li>
+                        <b>Modem:</b> Converte sinais de comunicação entre a rede local e o provedor de Internet (ISP).
+                    </li>
+                    <li>
+                        <b>Firewall:</b> Filtra o tráfego de dados e controla acessos para proteger a rede contra
+                        ataques.
+                    </li>
+                    <li>
+                        <b>Servidor:</b> Hospeda serviços como DNS, DHCP e HTTP, oferecendo recursos à rede.
+                    </li>
+                    <li>
+                        <b>Cliente:</b> Dispositivos finais (PCs, smartphones) que acessam a rede e seus serviços.
+                    </li>
+                    <li>
+                        <b>Bridge:</b> Conecta segmentos de rede, filtrando tráfego entre eles.
+                    </li>
+                    <li>
+                        <b>Repetidor:</b> Amplifica e estende sinais de rede, aumentando o alcance da comunicação.
+                    </li><br>
+                    <p>Esses equipamentos são essenciais para criar, gerenciar e proteger redes de computadores,
+                        garantindo conectividade e segurança.</p>
+                </div>
+                <div class="piece-next">
+                    <div class="carousel">
+                        <input type="radio" name="radio-btn4" id="img4-1" checked>
+                        <input type="radio" name="radio-btn4" id="img4-2">
+                        <input type="radio" name="radio-btn4" id="img4-3">
+                        <input type="radio" name="radio-btn4" id="img4-4">
+                        <input type="radio" name="radio-btn4" id="img4-5">
+                        <input type="radio" name="radio-btn4" id="img4-6">
+                        <input type="radio" name="radio-btn4" id="img4-7">
+                        <input type="radio" name="radio-btn4" id="img4-8">
+                        <input type="radio" name="radio-btn4" id="img4-9">
+                        <div class="slides4">
+                            <div class="slide">
+                                <img src="/img/roteadorF.jpg" alt="Imagem 1">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/switchF.jpg" alt="Imagem 2">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/acesspointF.png" alt="Imagem 3">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/modem.jpg" alt="Imagem 4">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/firewallF.jpeg" alt="Imagem 5">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/serverF.png" alt="Imagem 6">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/clienteF.jpeg" alt="Imagem 7">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/bridgeF.jpg" alt="Imagem 8">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/repetidor.jpg" alt="Imagem 9">
+                            </div>
+                        </div>
+
+                        <div class="navigation-manual">
+                            <label for="img4-1" class="manual-btn"></label>
+                            <label for="img4-2" class="manual-btn"></label>
+                            <label for="img4-3" class="manual-btn"></label>
+                            <label for="img4-4" class="manual-btn"></label>
+                            <label for="img4-5" class="manual-btn"></label>
+                            <label for="img4-6" class="manual-btn"></label>
+                            <label for="img4-7" class="manual-btn"></label>
+                            <label for="img4-8" class="manual-btn"></label>
+                            <label for="img4-9" class="manual-btn"></label>
+                        </div>
+                    </div>
+                </div>
+            </div><br><br>
+            <div class="conteudo">
+                <div class="piece">
+                    <h2>Crimpagem:</h2><br>
+                    <li>
+                        Processo de fixar as extremidades do cabo de rede (geralmente Ethernet) a conectores RJ45,
+                        usando uma ferramenta chamada crimpadora.
+                    </li><br>
+                    <h2>Pinagem:</h2>
+                    <li>
+                        Refere-se à disposição dos fios dentro de um conector, seguindo um padrão específico para
+                        garantir a correta transmissão de dados.
+                    </li>
+                    <li>
+                        O padrão mais comum para cabos de rede é o T568B ou T568A, que define a ordem dos fios dentro do
+                        cabo. No T568B, a pinagem é:
+                    </li><br>
+                    <li>Branco/laranja</li>
+                    <li>Laranja</li>
+                    <li>Branco/verde</li>
+                    <li>Azul</li>
+                    <li>Branco/azul</li>
+                    <li>Verde</li>
+                    <li>Branco/marrom</li>
+                    <li>Marrom</li>
+
+                </div>
+                <div class="piece-next">
+                    <div class="carousel">
+                        <input type="radio" name="radio-btn5" id="img5-1" checked>
+                        <input type="radio" name="radio-btn5" id="img5-2">
+                        <input type="radio" name="radio-btn5" id="img5-3">
+                        <input type="radio" name="radio-btn5" id="img5-4">
+                        <div class="slides5">
+                            <div class="slide">
+                                <img src="/img/clipagem.jpeg" alt="Imagem 1">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/caborede.png" alt="Imagem 2">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/caboredeF.jpg" alt="Imagem 3">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/cripador.jpeg" alt="Imagem 4">
+                            </div>
+                        </div>
+
+                        <div class="navigation-manual">
+                            <label for="img5-1" class="manual-btn"></label>
+                            <label for="img5-2" class="manual-btn"></label>
+                            <label for="img5-3" class="manual-btn"></label>
+                            <label for="img5-4" class="manual-btn"></label>
+                        </div>
+                    </div>
+                </div>
+            </div><br><br>
+            <div class="conteudo">
+                <div class="piece">
+                    <h3>Modelo OSI (Open Systems Interconnection):</h3><br>
+                    <p><b>Definição:</b> Modelo teórico em 7 camadas que descreve como os dados viajam de um dispositivo
+                        a outro na rede. As camadas são:</p><br>
+                    <li>Física</li>
+                    <li>Enlace de Dados</li>
+                    <li>Rede</li>
+                    <li>Transporte</li>
+                    <li>Sessão</li>
+                    <li>Apresentação</li>
+                    <li>Aplicação</li><br>
+                    <h3>TCP/IP (Transmission Control Protocol/Internet Protocol):</h3><br>
+                    <p><b>Definição:</b> Conjunto de protocolos que fundamenta a comunicação na internet. O TCP garante
+                        a entrega dos pacotes de dados, enquanto o IP lida com o endereçamento e roteamento desses
+                        pacotes na rede.</p>
+                </div>
+                <div class="piece-next">
+                    <div class="carousel">
+                        <input type="radio" name="radio-btn6" id="img6-1" checked>
+                        <input type="radio" name="radio-btn6" id="img6-2">
+                        <input type="radio" name="radio-btn6" id="img6-3">
+                        <div class="slides6">
+                            <div class="slide">
+                                <img src="/img/osi.jpg" alt="Imagem 1">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/tcp-ip.png" alt="Imagem 2">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/model.png" alt="Imagem 3">
+                            </div>
+                        </div>
+
+                        <div class="navigation-manual">
+                            <label for="img6-1" class="manual-btn"></label>
+                            <label for="img6-2" class="manual-btn"></label>
+                            <label for="img6-3" class="manual-btn"></label>
+                        </div>
+                    </div>
+                </div>
+            </div><br><br>
+            <h1>FTP e Armazenamento em Nuvem</h1><br><br>
+            <div class="conteudo">
+                <div class="piece">
+                    <h2>Servidor FTP (File Transfer Protocol):</h2><br>
+                    <li><b>Definição:</b> Protocolo utilizado para transferir arquivos entre computadores em uma rede.
+                        Um servidor FTP permite o armazenamento e o acesso remoto de arquivos.</li><br>
+                    <li><b>Principais funcionalidades:</b></li>
+                    <li>Transferência de arquivos entre computadores de forma segura e rápida.</li>
+                    <li>Permite o upload e download de arquivos para e de servidores.</li>
+                    <li>Usado para administração de websites, backup de dados e compartilhamento de arquivos.</li>
+                    <br>
+                    <li><b>Vantagens:</b> FTP era amplamente utilizado por ser um protocolo simples e eficiente para transferir grandes volumes de dados entre máquinas.</li>
+                    <li><b>Limitações:</b> O FTP não criptografa os dados, o que implica riscos de segurança. Além disso, ele não oferece facilidades de colaboração como os sistemas modernos de armazenamento em nuvem.</li><br>
+                    <h3>Diferenças entre um servidor FTP e serviços de armazenamento em nuvem (Google Drive, OneDrive):</h3><br>
+                    <li><b>FTP:</b> Protocolo de transferência de arquivos que exige configuração do servidor e não oferece controle de versão ou compartilhamento colaborativo.</li>
+                    <li><b>Nuvem:</b> Serviços como Google Drive ou OneDrive permitem não só o armazenamento e compartilhamento de arquivos, mas também a colaboração em tempo real, sincronização automática e segurança através de criptografia.</li>
+                </div>
+                <div class="piece-next">
+                    <div class="carousel">
+                        <input type="radio" name="radio-btn7" id="img7-1" checked>
+                        <input type="radio" name="radio-btn7" id="img7-2">
+                        <div class="slides7">
+                            <div class="slide">
+                                <img src="/img/ftp.png" alt="Imagem 1">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/nuvem.jpg" alt="Imagem 2">
+                            </div>
+                        </div>
+    
+                        <div class="navigation-manual">
+                            <label for="img7-1" class="manual-btn"></label>
+                            <label for="img7-2" class="manual-btn"></label>
+                        </div>
+                    </div>
+                </div>
+            </div><br><br>
+            <h1>Servidor de E-mail e Protocolos de E-mail</h1><br>
+            <div class="conteudo">
+                <div class="piece">
+                    <h3>Servidor de E-mail:</h3><br>
+                    <li><b>Definição:</b> É um servidor dedicado a enviar, receber e armazenar e-mails. Ele usa protocolos como SMTP, POP3, e IMAP para enviar e gerenciar mensagens.</li><br>
+                    <h3>SMTP (Simple Mail Transfer Protocol):</h3><br>
+                    <li><b>Definição:</b> Protocolo usado para enviar e-mails de um servidor para outro. Ele define como os e-mails são encaminhados da origem para o destino.</li>
+                    <li><b>Como funciona:</b> O servidor SMTP envia o e-mail para o servidor de destino, onde ele será armazenado até ser acessado pelo destinatário.</li><br>
+                    <h3>POP3 (Post Office Protocol 3):</h3><br>
+                    <li><b>Definição:</b> Protocolo usado para receber e-mails. Ele baixa os e-mails do servidor para o dispositivo local e os exclui do servidor.</li>
+                    <li><b>Como funciona:</b>Ao acessar o servidor de e-mail, o POP3 baixa as mensagens e as armazena no computador local do usuário, removendo-as do servidor.</li><br>
+                    <h3>IMAP (Internet Message Access Protocol):</h3><br>
+                    <li><b>Definição:</b> Protocolo também utilizado para receber e-mails, mas permite acessar e gerenciar as mensagens diretamente no servidor, sem baixá-las para o dispositivo.</li>
+                    <li><b>Como funciona:</b> O IMAP sincroniza os e-mails entre os dispositivos, permitindo que as mensagens fiquem armazenadas no servidor e possam ser acessadas em múltiplos dispositivos.</li><br>
+                    <h3>Portas Usadas pelos Protocolos:</h3><br>
+                    <li>Porta 25: Usada pelo SMTP para enviar e-mails.</li>
+                    <li>Porta 110: Usada pelo POP3 para baixar e-mails.</li>
+                    <li>Porta 143: Usada pelo IMAP para acessar e-mails no servidor.</li><br>
+                    <h3>Resumo das Diferenças Entre POP3 e IMAP:</h3><br>
+                    <li>POP3: Baixa e-mails para o dispositivo e os exclui do servidor, o que pode limitar o acesso em múltiplos dispositivos.</li>
+                    <li>IMAP: Mantém os e-mails no servidor, permitindo o acesso e a sincronização entre vários dispositivos.</li>
+                    <p>Esses protocolos e serviços são fundamentais para o funcionamento de redes, comunicação e compartilhamento de dados na era digital.</p>
+                </div>
+                <div class="piece-next">
+                    <div class="carousel">
+                        <input type="radio" name="radio-btn8" id="img8-1" checked>
+                        <input type="radio" name="radio-btn8" id="img8-2">
+                        <input type="radio" name="radio-btn8" id="img8-3">
+                        <input type="radio" name="radio-btn8" id="img8-4">
+                        <div class="slides8">
+                            <div class="slide">
+                                <img src="/img/postas.png" alt="Imagem 1">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/smtp.png" alt="Imagem 2">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/p9op3.png" alt="Imagem 3">
+                            </div>
+                            <div class="slide">
+                                <img src="/img/imap.png" alt="Imagem 4">
+                            </div>
+                        </div>
+    
+                        <div class="navigation-manual">
+                            <label for="img8-1" class="manual-btn"></label>
+                            <label for="img8-2" class="manual-btn"></label>
+                            <label for="img8-3" class="manual-btn"></label>
+                            <label for="img8-4" class="manual-btn"></label>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <p>&copy; 2024 VisualQuart. Todos os direitos reservados.</p>
+        <nav>
+            <a href="https://github.com/joaovitinho183" target="_blank"><img src="/img/github_3291695.png" alt=""
+                    width="50px"></a>
+            <a href="https://www.instagram.com/ojoaovitor08/?next=%2Fojoaovitor183%2F" target="_blank"><img
+                    src="/img/instagram_2111463.png" alt="" width="50px"></a>
+            <a href="https://wa.link/ll8kyu" target="_blank"><img src="/img/whatsapp_3536445.png" alt=""
+                    width="50px"></a>
+        </nav>
+    </footer>
+
+
+</body>
+
+</html>
